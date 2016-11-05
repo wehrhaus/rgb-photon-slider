@@ -9,4 +9,4 @@ Listens for rgb values to send to particle.io Photon.
 The fritzing digram shows how it should look after assembly
 
 ## Diagram
-![RGB to Photon](./rgb-photon_bb.png)
+![RGB to Photon](./rgb-photon-diagram.png)
