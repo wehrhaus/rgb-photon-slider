@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RGB Photon</title>
+    <link rel="stylesheet" href="door.sock.css" />
+</head>
+<body>
+
+    <div class="sliders">
+        <div class="slider">
+            <label for="red">Red</label>
+            <input name="red" type="range" class="range_red" min="0" max="255" value="0">
+            <span class="range_red_output">0</span>
+        </div>
+        <div class="slider">
+            <label for="green">Green</label>
+            <input name="green" type="range" class="range_green" min="0" max="255" value="0">
+            <span class="range_green_output">0</span>
+        </div>
+        <div class="slider">
+            <label for="blue">Blue</label>
+            <input name="blue" type="range" class="range_blue" min="0" max="255" value="0">
+            <span class="range_blue_output">0</span>
+        </div>
+        <div class="slider_preview"></div>
+        <button class="slider_submit" type="button">Send Color</button>
+    </div>
+
+    <script src="door.sock.js"></script>
+
+</body>
+</html>
