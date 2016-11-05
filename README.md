@@ -8,5 +8,8 @@ Listens for rgb values to send to particle.io Photon.
 
 The fritzing digram shows how it should look after assembly
 
+## Web Interface
+![Web Interface](./rgb-photon-web-interface)
+
 ## Diagram
 ![RGB to Photon](./rgb-photon-diagram.png)
