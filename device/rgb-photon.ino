@@ -4,7 +4,7 @@
 using namespace RGBControls;
 
 // RGB led on PWN pins
-Led led(D0, D1, D2); // red_pin = 9, green_pin = 10, blue_pin = 11
+Led led(D0, D1, D2); // RGB
 
 void init()
 {}
